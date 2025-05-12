@@ -81,14 +81,14 @@ main{
 }
 .tagline{
     position:absolute;
-    left: 0;
+    left: 30px;
     width:500px;
     height: 80%;
     align-content: center;
 }
 .more{
     position:absolute;
-    right: 0;
+    right: 30px;;
     height: 80%;
     width:300px;
     align-content: center;
@@ -126,6 +126,10 @@ main{
 }
 .About a img{
 width:100px;
+background-color: rgb(232, 226, 226);
+border-radius: 50%;
+width: 50px;
+height: 50px;
 }
 
 .About a{
@@ -135,6 +139,7 @@ width:100px;
     padding: 40px;
     margin:40px;
     border-radius: 5px;
+    align-content: center;
 }
 .portfolio{
     display:none;
@@ -178,6 +183,7 @@ body{
     justify-content: center;
     height: 90%;
     width:100%;
+    font-size: large;
 }
 .image{
     display: flex;
@@ -186,10 +192,11 @@ body{
     justify-content: center;
     height: 50%;
     width: 500px;
-    border: 3px solid white;
+    border-radius: 15px;
+    margin:20px;
 }
 .image img{
-    width: 100%;
+    width: 80%;
     height: 80%;
     border-radius: 10px;
 }
